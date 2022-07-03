@@ -1,0 +1,15 @@
+[package]
+name = "aqi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+Inflector = "0.11.4"
+color-eyre = "0.6.1"
+reqwest = {version = "0.11.4", features = ["json"]}
+serde = {version = "1.0.130", features = ["derive"]}
+serde_json = "1.0.68"
+structopt = "0.3.23"
+tokio = { version = "1.11.0", features = ["macros", "rt-multi-thread"] }
