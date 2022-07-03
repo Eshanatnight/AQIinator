@@ -6,7 +6,7 @@ A tool to get the AQI
 
 go to the [Air Quality Programmatic APIs](https://aqicn.org/data-platform/token/) and get yourself a Token.
 
-After you get the token, you have to create a new file in the [/src](.\src) called token.rs
+After you get the token, you have to create a new file in the [/src](/src/) called token.rs
 and add the token in the new file. Like so.
 
 ```rust
