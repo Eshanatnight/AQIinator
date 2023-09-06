@@ -1,5 +1,4 @@
-# furry-tribble
-
+# AQIinator
 A tool to get the AQI
 
 ## To make it up and running
